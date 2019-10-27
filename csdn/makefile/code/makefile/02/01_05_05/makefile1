@@ -1,0 +1,18 @@
+# 位置1
+#1.mk :
+#	@echo "$@  out"
+include 1.mk
+#位置2
+#1.mk :
+#	@echo "$@  out"
+
+all:
+	@echo "all out"
+
+
+
+
+
+
+
+

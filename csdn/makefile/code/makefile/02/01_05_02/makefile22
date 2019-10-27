@@ -1,0 +1,8 @@
+
+1.mk : 
+	@echo "1.mk out"
+
+all: 
+	@echo "all out"
+
+include 1.mk

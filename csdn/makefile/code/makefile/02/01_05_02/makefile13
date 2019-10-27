@@ -1,0 +1,7 @@
+include test1
+
+all :
+	@echo "all out"
+	
+test1:
+	@echo "$@ : out"
